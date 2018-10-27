@@ -43,10 +43,10 @@ Partial Class frmWellcome
         '
         Me.lblElle.AutoSize = True
         Me.lblElle.Enabled = False
-        Me.lblElle.Font = New System.Drawing.Font("Bauhaus 93", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblElle.Font = New System.Drawing.Font("Bauhaus 93", 25.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblElle.Location = New System.Drawing.Point(243, 43)
         Me.lblElle.Name = "lblElle"
-        Me.lblElle.Size = New System.Drawing.Size(342, 24)
+        Me.lblElle.Size = New System.Drawing.Size(555, 39)
         Me.lblElle.TabIndex = 0
         Me.lblElle.Text = "Bonjour, asseyez-vous pour jouer... "
         '

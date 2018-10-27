@@ -2,11 +2,11 @@
     '''<sumary>
     ''' PROGRAM SEXY POKER
     ''' TP 3 de P34 fait par Pablo Aguilar-Lliguin   1336287
-    ''' 
+    '''
     ''' date de creation: 24 Fevrier 2014
-    ''' 
+    '''
     ''' date de revition: 04 Mars 2014
-    ''' 
+    '''
     ''' frmWELLCOME:
     ''' Premier fenetre du jeu sexy poker, essay de creer une interaction entre
     ''' l'utilisateur et machine plus conviviale a l'aide d'un Timer
@@ -14,7 +14,7 @@
     ''' </sumary>
 
     Dim elle As Byte 'Comteur de actions Machine
-    Dim toi As Byte   'Compteur actions du usager  
+    Dim toi As Byte   'Compteur actions du usager
 
     Private Sub timAuto_Tick(sender As Object, e As EventArgs) Handles timAuto.Tick
         Select Case elle
@@ -96,4 +96,5 @@
             Application.Exit()
         End If
     End Sub
+
 End Class
